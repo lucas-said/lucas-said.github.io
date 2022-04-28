@@ -132,28 +132,23 @@ header{
     background-color: azure;
     width: 200px;
     display:inline-block;
-}
-
-nav a:hover{
-    
-    background-color:black;
-    padding:25px;
-    color:white;
-    
-}
-
-nav a:link, a:visited{
-    
-    text-decoration:none;
-    color:black;
-    padding:40px;
-    
-}
-
-nav ul li{
-
     display:inline-block;
     padding: 20px;
+}
+
+.main_navigation li:hover {
+    cursor: pointer;
+    background-color:black;
+    color:white;
+}
+
+.main_navigation li:hover > a {
+    color:white;
+}
+
+.main_navigation a:link, a:visited {
+    text-decoration:none;
+    color:black;
 }
 
 .submitbutton{
