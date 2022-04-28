@@ -2,6 +2,10 @@
 	box-sizing:border-box;	
 }
 
+html {
+    font-size: 16px;
+}
+
 html, body{
     font-family: 'Inconsolata', monospace;
     margin: 0;
@@ -45,6 +49,25 @@ header{
 	border-radius:20px;
 }
 
+.flexcontainer{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.flexcontainer > div{
+    background-color: antiquewhite;
+    margin:10px;
+    padding:20px;
+    font-size:1rem;
+}
+
+@media (max-width: 800px){
+    .flexcontainer{
+        flex-direction:column;
+    }
+}
+
 .section1{
     overflow: hidden;
     background-color:gainsboro;
@@ -53,7 +76,20 @@ header{
 
 .section2{
     overflow:hidden;
-    background-color:rgb(214, 214, 214);
+    background-color:white;
+}
+
+.section3{
+    overflow:hidden;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.section4{
+    overflow:hidden;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
 }
 
 .myselfsection{
@@ -68,7 +104,7 @@ header{
     padding: 40px;
     float: left;
 }
-nav{
+.main_navigation{
 
     background-color:gainsboro;
     width:100%;
@@ -79,8 +115,17 @@ nav{
 
 }
 
-nav ul li{
+.main_navigation__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.main_navigation__nav-item {
+    font-size: 1rem;
+    background-color: azure;
+    width: 200px;
     display:inline-block;
 }
 
