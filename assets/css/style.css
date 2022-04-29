@@ -55,9 +55,31 @@ header{
 }
 
 .flexcontainer{
-    flex-direction: row;
     display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-items-center {
     justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ml-2 {
+    margin-left: 1.5rem;
 }
 
 .flexcontainer > .flex_spaces{
@@ -180,4 +202,32 @@ header{
 
 .flex_spaces{
     flex: 1 1 0;
+}
+
+#Layer_1{
+    position: relative;
+    top:10px;
+    width:30px;
+    height:30PX;
+}
+
+#Capa_1{
+    position: relative;
+    top:10px;
+    width: 30px;
+    height: 30px;
+
+}
+
+#Layer_2{
+    position: relative;
+    top:43px;
+    width: 30px;
+    height: 30px;
+    right:145px;
+}
+
+#email{
+    left:10000px;
+
 }
