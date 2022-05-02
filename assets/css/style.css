@@ -31,7 +31,7 @@ header{
 }
 
 .overflow{
-    /* overflow: hidden; */
+    overflow: hidden;
     overflow-wrap: break-word;
 }
 
@@ -54,10 +54,6 @@ header{
 .flex-grow {
     flex-grow: 1;
     text-align: center;
-}
-
-.flexcontainer{
-    display: flex;
 }
 
 .flex-row {
@@ -92,25 +88,30 @@ header{
     margin-left: 1.5rem;
 }
 
-.flexcontainer > .flex_spaces{
+.card{
     background-color: rgb(233, 229, 229);
-    margin:10px;
     padding:20px;
     font-size:1rem;
 }
 
-.flexcontainer > .flex-grow{
-    background-color: rgb(249, 245, 245);
-    margin:10px;
-    padding:20px;
-    font-size:1rem;
+.section-padding{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.flexcontainer >{
-    background-color: rgb(249, 245, 245);
-    margin:10px;
-    padding:20px;
-    font-size:1rem;
+
+#learnings .cards{
+    gap: 20px;
+}
+
+.flexcontainer{
+    display: flex;
+}
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 @media (max-width: 800px){
@@ -240,4 +241,8 @@ header{
 #email{
     left:10000px;
 
+}
+
+.margin_set{
+    margin: 0 auto;
 }
