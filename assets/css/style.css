@@ -13,7 +13,6 @@ html, body{
     
 }
 
-
 footer {
     overflow: hidden;
     text-align: center;
@@ -22,7 +21,7 @@ footer {
 }
 
 header{
-    text-align:center;
+    text-align:right;
     color:white;
     width: 100%;
     background-image: url('../images/waterfall.jpg');
@@ -31,7 +30,10 @@ header{
     height:100vh;
 }
 
-
+.overflow{
+    /* overflow: hidden; */
+    overflow-wrap: break-word;
+}
 
 .header-container{
     display: inline-block;
@@ -44,8 +46,8 @@ header{
     background-color:rgb(11, 85, 11);
 	color:white;
 	text-align:center;
-    width:200px;
-    height:25px;
+    width:150px;
+    height:35px;
 	border-radius:20px;
 }
 
@@ -72,6 +74,14 @@ header{
 
 .align-items-center {
     align-items: center;
+}
+
+.align-items-right{
+    align-items: right;
+}
+
+.justify-items-right{
+    justify-items: left;
 }
 
 .ml-1 {
