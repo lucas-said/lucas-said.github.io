@@ -1,54 +1,64 @@
-*{
-	box-sizing:border-box;	
+* {
+    box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
 
-html, body{
+html,
+body {
     font-family: 'Inconsolata', monospace;
     margin: 0;
     padding: 0;
-    
+    font-size: 16px;
 }
 
 footer {
     overflow: hidden;
     text-align: center;
-    font-size:20px;
-    background-color:rgb(233, 229, 229) ;
+    font-size: 20px;
+    background-color: rgb(233, 229, 229);
 }
 
-header{
-    text-align:right;
-    color:white;
+header {
+    text-align: right;
+    color: white;
     width: 100%;
     background-image: url('../images/waterfall.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height:100vh;
+    height: 100vh;
 }
 
-.overflow{
+.margin_sections {
+    margin: 0px;
+}
+
+.padding_sections {
+    padding: 10px;
+}
+
+.padding_top {
+    padding-top: 20px;
+}
+
+.overflow {
     overflow: hidden;
     overflow-wrap: break-word;
 }
 
-.header-container{
+.header-container {
     display: inline-block;
     position: relative;
     top: 250px;
 }
 
-#discover_more{   
-    position:relative;
-    background-color:rgb(11, 85, 11);
-	color:white;
-	text-align:center;
-    width:150px;
-    height:35px;
-	border-radius:20px;
+#discover_more {
+    position: relative;
+    background-color: rgb(11, 85, 11);
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
 }
 
 .flex-grow {
@@ -72,11 +82,11 @@ header{
     align-items: center;
 }
 
-.align-items-right{
+.align-items-right {
     align-items: right;
 }
 
-.justify-items-right{
+.justify-items-right {
     justify-items: left;
 }
 
@@ -88,86 +98,73 @@ header{
     margin-left: 1.5rem;
 }
 
-.card{
+.card {
     background-color: rgb(233, 229, 229);
-    padding:20px;
-    font-size:1rem;
+    padding: 20px;
+    font-size: 1rem;
+
 }
 
-.section-padding{
+.section-padding {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-
-#learnings .cards{
-    gap: 20px;
+.text-alignment_center{
+    text-align: center;
 }
 
-.flexcontainer{
+.flexcontainer {
     display: flex;
 }
 
 
-.container{
-    max-width: 800px;
+.container {
+    width: 100%;
+    max-width: 900px;
     margin: 0 auto;
 }
 
-@media (max-width: 800px){
-    .flexcontainer{
-        flex-direction:column;
+@media (max-width: 900px) {
+    .flexcontainer {
+        flex-direction: column;
     }
 }
 
-.section1{
-    overflow: hidden;
-    background-color:rgb(249, 245, 245);
-    text-align:center;
-}
-
-.section2{
-    overflow:hidden;
-    background-color:white;
-}
-
-.section3{
-    overflow:hidden;
+.bg-grey {
     background-color: rgb(249, 245, 245);
-    text-align: center;
 }
 
-.section4{
-    overflow:hidden;
+.bg-white {
     background-color: white;
-    text-align: left;
-    padding: 30px;
 }
 
-.myselfsection{
+.myselfsection {
     text-align: center;
-    padding:10px;
+    padding: 5px;
 
 }
 
-#goldfish{
-    height:30%;
-    width: 30%;
-    padding: 40px;
+#goldfish {
+    height: 450px;
+    width: 350px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     float: left;
 }
-.main_navigation{
 
-    background-color:rgb(249, 245, 245);
-    width:100%;
+.main_navigation {
+
+    background-color: rgb(249, 245, 245);
+    width: 100%;
     padding: 5px;
     text-align: center;
-    float:left;
-    color:black;
+    color: black;
 
 }
 
-.main_navigation__wrapper{
+.main_navigation__wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -178,71 +175,115 @@ header{
     font-size: 1rem;
     background-color: rgb(233, 228, 228);
     width: 200px;
-    display:inline-block;
-    display:inline-block;
+    display: inline-block;
+    display: inline-block;
     padding: 20px;
 }
 
 .main_navigation li:hover {
     cursor: pointer;
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
 }
 
-.main_navigation li:hover > a {
-    color:white;
+.main_navigation li:hover>a {
+    color: white;
 }
 
 .main_navigation a:link, a:visited {
-    text-decoration:none;
-    color:black;
+    text-decoration: none;
+    color: black;
 }
 
-.submitbutton{
+.submitbutton {
     border-radius: 20px;
-    width:55%;
-    font-size: 1.2rem;
-    background-color: white;
+    width: 100px;
+    height:30px;
+    font-size: 0.7rem;
+    background-color: black;
+    color:white;
 }
 
-.form__background{
-    width:55%;
+/* .form__background {
+    width: 300px;
     border-radius: 5px;
-    background-color: white;
-}
+} */
 
-.flex_spaces{
+.flex_spaces {
     flex: 1 1 0;
 }
 
-#Layer_1{
+#Layer_1 {
     position: relative;
-    top:10px;
-    width:30px;
-    height:30PX;
+    top: 10px;
+    width: 30px;
+    height: 30PX;
 }
 
-#Capa_1{
+#Capa_1 {
     position: relative;
-    top:10px;
+    top: 10px;
     width: 30px;
     height: 30px;
 
 }
 
-#Layer_2{
+#Layer_2 {
     position: relative;
-    top:43px;
+    top: 43px;
     width: 30px;
     height: 30px;
-    right:145px;
+    right: 145px;
 }
 
-#email{
-    left:10000px;
+#email {
+    left: 10000px;
 
 }
 
-.margin_set{
+.margin_set {
     margin: 0 auto;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+.margin_padding_0 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.form_fontsize{
+    font-size:0.7rem;
+}
+
+form{
+    width: 40%;
+    margin: 0px;
+}
+
+.contact_info__width{
+    width: 40%;
+    margin:0px;
+}
+
+.gap__cards{
+    gap:30px;
+}
+
+.display__flexblock{
+    display:flex;
+}
+
+.form__design{
+    width: 285px;
+    background: transparent;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid gray;
+}
+
+.message__design{
+
 }
