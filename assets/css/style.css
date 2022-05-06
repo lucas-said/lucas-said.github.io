@@ -176,7 +176,6 @@ header {
     background-color: rgb(233, 228, 228);
     width: 200px;
     display: inline-block;
-    display: inline-block;
     padding: 20px;
 }
 
@@ -277,7 +276,6 @@ form{
 }
 
 .form__design{
-    width: 285px;
     background: transparent;
     outline: none;
     border:none;
@@ -286,4 +284,28 @@ form{
 
 .message__design{
 
+}
+
+.resize-border__none{
+    resize: none;
+}
+
+.form__text{
+    position: absolute;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.email_fit{
+    width:45%
+
+}
+
+.fullname_fit{
+    width:45%
+
+}
+
+.message__width{
+    width:50%;
 }
