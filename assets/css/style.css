@@ -61,9 +61,21 @@ header {
     border-radius: 20px;
 }
 
+.float-right {
+    float: right;
+}
+
+.float-left{
+    float:left;
+}
+
+.display-none{
+    display:none;
+}
+
 .flex-grow {
-    flex-grow: 1;
-    text-align: center;
+    /* flex-grow: 1; */
+    text-align: left;
 }
 
 .flex-row {
@@ -76,6 +88,10 @@ header {
 
 .justify-items-center {
     justify-content: center;
+}
+
+.justify-content-right{
+    justify-content: right;
 }
 
 .align-items-center {
@@ -114,6 +130,10 @@ header {
     text-align: center;
 }
 
+.text-align_left{
+    text-align: left;
+}
+
 .flexcontainer {
     display: flex;
 }
@@ -140,7 +160,7 @@ header {
 }
 
 .myselfsection {
-    text-align: center;
+    text-align: left;
     padding: 5px;
 
 }
@@ -152,6 +172,10 @@ header {
     padding-top: 10px;
     padding-bottom: 20px;
     float: left;
+}
+
+.flex-wrap_wrap{
+    flex-wrap: wrap;
 }
 
 .main_navigation {
@@ -257,14 +281,10 @@ section {
     font-size:0.7rem;
 }
 
-form{
-    width: 40%;
-    margin: 0px;
-}
-
 .contact_info__width{
     width: 40%;
-    margin:0px;
+    margin-left:5%;
+    margin-top: 5%;
 }
 
 .gap__cards{
@@ -282,10 +302,6 @@ form{
     border-bottom: 2px solid gray;
 }
 
-.message__design{
-
-}
-
 .resize-border__none{
     resize: none;
 }
@@ -297,15 +313,16 @@ form{
 }
 
 .email_fit{
-    width:45%
+    width:48%
 
 }
 
 .fullname_fit{
-    width:45%
+    width:48%
 
 }
 
 .message__width{
-    width:50%;
+    width:98%;
 }
+
