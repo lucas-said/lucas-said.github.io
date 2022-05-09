@@ -65,6 +65,10 @@ header {
     float: right;
 }
 
+.margin-left__icons{
+    margin-left: 110px;
+}
+
 .float-left{
     float:left;
 }
@@ -74,7 +78,6 @@ header {
 }
 
 .flex-grow {
-    /* flex-grow: 1; */
     text-align: left;
 }
 
@@ -207,15 +210,19 @@ header {
     cursor: pointer;
     background-color: black;
     color: white;
+    fill:white;
 }
+
 
 .main_navigation li:hover>a {
     color: white;
+    fill:white;
 }
 
 .main_navigation a:link, a:visited {
     text-decoration: none;
     color: black;
+    fill:black;
 }
 
 .submitbutton {
@@ -226,11 +233,6 @@ header {
     background-color: black;
     color:white;
 }
-
-/* .form__background {
-    width: 300px;
-    border-radius: 5px;
-} */
 
 .flex_spaces {
     flex: 1 1 0;
@@ -325,4 +327,9 @@ section {
 .message__width{
     width:98%;
 }
+
+.svg_padding{
+    padding:20px;
+}
+
 
