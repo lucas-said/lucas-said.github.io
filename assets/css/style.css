@@ -2,13 +2,8 @@
     box-sizing: border-box;
 }
 
-html{
-    overflow: hidden;
-    height: auto;
-}
-
 body{
-    overflow: auto;
+
     height: 100%;
 }
 
