@@ -28,6 +28,10 @@ header {
     height: 100vh;
 }
 
+.padding__walls{
+    padding:20px;
+}
+
 .margin_sections {
     margin: 0px;
 }
@@ -37,7 +41,7 @@ header {
 }
 
 .padding_top {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .overflow {
@@ -53,12 +57,18 @@ header {
 
 #discover_more {
     position: relative;
-    background-color: rgb(11, 85, 11);
+    background-color: #4CAF50;
     color: white;
     text-align: center;
     width: 150px;
-    height: 35px;
-    border-radius: 20px;
+    height: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#discover_more:hover{
+    background-color: darkgreen;
 }
 
 .float-right {
@@ -141,18 +151,12 @@ header {
     display: flex;
 }
 
-
 .container {
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
 }
 
-@media (max-width: 900px) {
-    .flexcontainer {
-        flex-direction: column;
-    }
-}
 
 .bg-grey {
     background-color: rgb(249, 245, 245);
@@ -164,8 +168,6 @@ header {
 
 .myselfsection {
     text-align: left;
-    padding: 5px;
-
 }
 
 #goldfish {
@@ -324,12 +326,32 @@ section {
 
 }
 
-.message__width{
+.message__width-height{
     width:98%;
+    height:150px;
+    padding-top: 20px;
 }
 
 .svg_padding{
     padding:20px;
 }
 
+@media (min-width: 768px) {
+    .flex-md-column {
+        flex-direction: column;
+    }
 
+    .flex-md-row{
+        flex-direction: row;
+    }
+
+    .goldfish_grow{
+        width:100%;
+        height:auto;
+    }
+
+    .icons_center{
+        text-align: center;
+        margin: 0;
+    }
+} 
