@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow: hidden;
+    height: auto;
+}
+
+body{
+    overflow: auto;
+    height: 100%;
+}
 
 html,
 body {
@@ -336,6 +345,10 @@ section {
     padding:20px;
 }
 
+.flex-direction_column{
+    flex-direction: column;
+}
+
 @media (min-width: 768px) {
     .flex-md-column {
         flex-direction: column;
@@ -350,8 +363,16 @@ section {
         height:auto;
     }
 
-    .icons_center{
-        text-align: center;
-        margin: 0;
+    .flex-direction_row{
+        flex-direction: row;
     }
 } 
+
+@media (max-width: 768px){
+
+    .margin-left__icons{
+        text-align: center;
+        margin: 0%;
+    }
+
+}
