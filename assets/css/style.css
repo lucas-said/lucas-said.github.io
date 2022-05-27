@@ -1,387 +1,425 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body{
-
-    height: 100%;
+body {
+  height: 100%;
 }
 
 html,
 body {
-    font-family: 'Inconsolata', monospace;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
 footer {
-    overflow: hidden;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(233, 229, 229);
+  overflow: hidden;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(233, 229, 229);
 }
 
 header {
-    text-align: right;
-    color: white;
-    width: 100%;
-    background-image: url('../images/waterfall.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
+  text-align: right;
+  color: white;
+  width: 100%;
+  background-image: url("../images/waterfall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.padding__walls{
-    padding:20px;
+.padding__walls {
+  padding: 20px;
 }
 
 .margin_sections {
-    margin: 0px;
+  margin: 0px;
 }
 
 .padding_sections {
-    padding: 10px;
+  padding: 10px;
 }
 
 .padding_top {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .overflow {
-    overflow: hidden;
-    overflow-wrap: break-word;
+  overflow: hidden;
+  overflow-wrap: break-word;
 }
 
 .header-container {
-    display: inline-block;
-    position: relative;
-    top: 250px;
+  display: inline-block;
+  position: relative;
+  top: 250px;
 }
 
 #discover_more {
-    position: relative;
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-    border-radius: 15px;
-    text-decoration: none;
-    cursor: pointer;
+  position: relative;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-#discover_more:hover{
-    background-color: darkgreen;
+#discover_more:hover {
+  background-color: darkgreen;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
-.margin-left__icons{
-    margin-left: 110px;
+.margin-left__icons {
+  margin-left: 110px;
 }
 
-.float-left{
-    float:left;
+.float-left {
+  float: left;
 }
 
-.display-none{
-    display:none;
+.display-none {
+  display: none;
 }
 
 .flex-grow {
-    text-align: left;
+  text-align: left;
 }
 
 .flex-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .flex-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .justify-items-center {
-    justify-content: center;
+  justify-content: center;
 }
 
-.justify-content-right{
-    justify-content: right;
+.justify-content-right {
+  justify-content: right;
 }
 
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .align-items-right {
-    align-items: right;
+  align-items: right;
 }
 
 .justify-items-right {
-    justify-items: left;
+  justify-items: left;
 }
 
 .ml-1 {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .ml-2 {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .card {
-    background-color: rgb(233, 229, 229);
-    padding: 20px;
-    font-size: 1rem;
-
+  background-color: rgb(233, 229, 229);
+  padding: 20px;
+  font-size: 1rem;
 }
 
 .section-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.text-alignment_center{
-    text-align: center;
+.text-alignment_center {
+  text-align: center;
 }
 
-.text-align_left{
-    text-align: left;
+.text-align_left {
+  text-align: left;
 }
 
 .flexcontainer {
-    display: flex;
+  display: flex;
 }
 
 .container {
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-
 .bg-grey {
-    background-color: rgb(249, 245, 245);
+  background-color: rgb(249, 245, 245);
 }
 
 .bg-white {
-    background-color: white;
+  background-color: white;
 }
 
 .myselfsection {
-    text-align: left;
+  text-align: left;
 }
 
 #goldfish {
-    height: 450px;
-    width: 350px;
-    padding-right: 35px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    float: left;
+  height: 450px;
+  width: 350px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  float: left;
 }
 
-.flex-wrap_wrap{
-    flex-wrap: wrap;
+.flex-wrap_wrap {
+  flex-wrap: wrap;
 }
 
 .main_navigation {
-
-    background-color: rgb(249, 245, 245);
-    width: 100%;
-    padding: 5px;
-    text-align: center;
-    color: black;
-
+  background-color: rgb(249, 245, 245);
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  color: black;
 }
 
 .main_navigation__wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .main_navigation__nav-item {
-    font-size: 1rem;
-    background-color: rgb(233, 228, 228);
-    width: 200px;
-    display: inline-block;
-    padding: 20px;
+  font-size: 1rem;
+  background-color: rgb(233, 228, 228);
+  width: 200px;
+  display: inline-block;
+  padding: 20px;
 }
 
 .main_navigation li:hover {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    fill:white;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  fill: white;
 }
 
-
-.main_navigation li:hover>a {
-    color: white;
-    fill:white;
+.main_navigation li:hover > a {
+  color: white;
+  fill: white;
 }
 
-.main_navigation a:link, a:visited {
-    text-decoration: none;
-    color: black;
-    fill:black;
+.main_navigation a:link,
+a:visited > a {
+  text-decoration: none;
+  color: black;
+  fill: black;
 }
 
 .submitbutton {
-    border-radius: 20px;
-    width: 100px;
-    height:30px;
-    font-size: 0.7rem;
-    background-color: black;
-    color:white;
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  font-size: 0.7rem;
+  background-color: black;
+  color: white;
 }
 
 .flex_spaces {
-    flex: 1 1 0;
+  flex: 1 1 0;
 }
 
 #Layer_1 {
-    position: relative;
-    top: 10px;
-    width: 30px;
-    height: 30PX;
+  position: relative;
+  top: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 #Capa_1 {
-    position: relative;
-    top: 10px;
-    width: 30px;
-    height: 30px;
-
+  position: relative;
+  top: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 #Layer_2 {
-    position: relative;
-    top: 43px;
-    width: 30px;
-    height: 30px;
-    right: 145px;
+  position: relative;
+  top: 43px;
+  width: 30px;
+  height: 30px;
+  right: 145px;
 }
 
 #email {
-    left: 10000px;
-
+  left: 10000px;
 }
 
 .margin_set {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 section {
-    padding: 4rem 0;
+  padding: 4rem 0;
 }
 
 .margin_padding_0 {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.form_fontsize{
-    font-size:0.7rem;
+.form_fontsize {
+  font-size: 0.7rem;
 }
 
-.contact_info__width{
-    width: 40%;
-    margin-left:5%;
-    margin-top: 5%;
+.contact_info__width {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
-.gap__cards{
-    gap:30px;
+.gap__cards {
+  gap: 30px;
 }
 
-.display__flexblock{
-    display:flex;
+.display__flexblock {
+  display: flex;
 }
 
-.form__design{
-    background: transparent;
-    outline: none;
-    border:none;
-    border-bottom: 2px solid gray;
+.form__design {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid gray;
 }
 
-.resize-border__none{
-    resize: none;
+.resize-border__none {
+  resize: none;
 }
 
-.form__text{
-    position: absolute;
-    display: inline-block;
-    pointer-events: none;
+.form__text {
+  position: absolute;
+  display: inline-block;
+  pointer-events: none;
 }
 
-.email_fit{
-    width:48%
-
+.email_fit {
+  width: 48%;
 }
 
-.fullname_fit{
-    width:48%
-
+.fullname_fit {
+  width: 48%;
 }
 
-.message__width-height{
-    width:98%;
-    height:150px;
-    padding-top: 20px;
+.message__width-height {
+  width: 98%;
+  height: 150px;
+  padding-top: 20px;
 }
 
-.svg_padding{
-    padding:20px;
+.svg_padding {
+  padding: 20px;
 }
 
-.flex-direction_column{
-    flex-direction: column;
+.flex-direction_column {
+  flex-direction: column;
 }
 
-.playground_styling{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 5px 0px;
+.playground_styling {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px 0px;
 }
 
-.playground_link:visited, .playground_link:link{
-    color: white;
-    text-decoration: none;
+.playground_link:visited,
+.playground_link:link {
+  color: white;
+  text-decoration: none;
 }
 
-
+.playground_link:hover {
+  color: #4caf50;
+}
 
 @media (min-width: 768px) {
-    .flex-md-column {
-        flex-direction: column;
-    }
+  .flex-md-column {
+    flex-direction: column;
+  }
 
-    .flex-md-row{
-        flex-direction: row;
-    }
+  .flex-md-row {
+    flex-direction: row;
+  }
 
-    .goldfish_grow{
-        width:100%;
-        height:auto;
-    }
+  .goldfish_grow {
+    width: 100%;
+    height: auto;
+  }
 
-    .flex-direction_row{
-        flex-direction: row;
-    }
-} 
+  .flex-direction_row {
+    flex-direction: row;
+  }
+}
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  .margin-left__icons {
+    text-align: center;
+    margin: 0%;
+  }
+}
 
-    .margin-left__icons{
-        text-align: center;
-        margin: 0%;
-    }
+/* CSS PLAYGROUNG PAGE */
 
+.div_spacing {
+  margin: 20px;
+}
+
+.header_style {
+  background-color: black;
+}
+
+.text_styling {
+  font-size: 4rem;
+  font-weight: 600px;
+  padding: 50px;
+  margin: 0%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  grid-template-rows: repeat(2, 33.33%);
+  justify-content: center;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.grid_styling {
+  color: black;
+  text-decoration: none;
+}
+
+.back_button {
+  background-color: black;
+  border-radius: 5px;
+  height: 60px;
+  width: 80px;
+}
+
+.back_button__style {
+  text-decoration: none;
+  color: white;
 }
