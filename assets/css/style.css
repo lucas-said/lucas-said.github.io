@@ -352,6 +352,71 @@ section {
   color: #4caf50;
 }
 
+/* CSS PLAYGROUNG PAGE */
+
+.div_spacing {
+  margin: 20px;
+}
+
+.header_style {
+  background-color: black;
+}
+
+.text_styling {
+  font-size: 4rem;
+  font-weight: 600px;
+  padding: 50px;
+  margin: 0%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  /* grid-template-rows: repeat(3, 33.33%); */
+  justify-content: center;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.grid_styling {
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  height: 100%;
+  margin: 0%;
+}
+
+.grid_styling:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+.back_button {
+  text-align: center;
+  background-color: black;
+  border-radius: 15px;
+  height: 100%;
+  width: 5%;
+  margin-left: 20px;
+}
+
+.back_button__styling {
+  text-decoration: none;
+  color: white;
+}
+
+.div__height{
+  height:30px;
+  text-align: center;
+}
+
+/* CSS PLAYGROUND PAGE */
+
+/* Media Queries */
+
 @media (min-width: 768px) {
   .flex-md-column {
     flex-direction: column;
@@ -376,50 +441,19 @@ section {
     text-align: center;
     margin: 0%;
   }
-}
 
-/* CSS PLAYGROUNG PAGE */
+  .back_button {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    margin:20px;
+  }
 
-.div_spacing {
-  margin: 20px;
-}
-
-.header_style {
-  background-color: black;
-}
-
-.text_styling {
-  font-size: 4rem;
-  font-weight: 600px;
-  padding: 50px;
-  margin: 0%;
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
-.grid_container {
-  display: grid;
-  grid-template-columns: repeat(3, 33.33%);
-  grid-template-rows: repeat(2, 33.33%);
-  justify-content: center;
-  border: 3px solid black;
-  text-align: center;
-}
-
-.grid_styling {
-  color: black;
-  text-decoration: none;
-}
-
-.back_button {
-  background-color: black;
-  border-radius: 5px;
-  height: 60px;
-  width: 80px;
-}
-
-.back_button__style {
-  text-decoration: none;
-  color: white;
+  .div__height{
+    background-color: black;
+    border-radius: 0%;
+  }
 }

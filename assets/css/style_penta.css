@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+}
+
+.flex_container{
+    display: flex;
+}
+
+.flex_centering{
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+/* Paralellogram */
+#pentagon {
+    width: 150px;
+    position: relative;
+    border-width: 110px 35px 0;
+    border-style: solid;
+    border-color: silver transparent;
+
+}
+
+/* Triangle */
+#pentagon:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -210px;
+    left: -35px;
+    border-width: 0 110px 100px;
+    border-style: solid;
+    border-color: transparent transparent silver;
+
+}
+
+/*  */
+/* Pentagon Black */
+
+#pentagon_black {
+    left: -210px;
+    top: -0px;
+    width: 140px;
+    position: relative;
+    border-width: 100px 30px 0;
+    border-style: solid;
+    border-color: black transparent;
+}
+
+#pentagon_black:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -170px;
+    left: -229px;
+    border-width: 0 100px 90px;
+    border-style: solid;
+    border-color: transparent transparent black;
+}
