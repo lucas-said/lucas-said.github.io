@@ -2,6 +2,13 @@ body{
     height: 100vh;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
 .flex_container{
     display: flex;
 }
@@ -40,11 +47,11 @@ body{
 /* Pentagon Black */
 
 #pentagon_black {
-    left: -210px;
-    top: -0px;
-    width: 140px;
+    left: -213px;
+    top: -2px;
+    width: 142px;
     position: relative;
-    border-width: 100px 30px 0;
+    border-width: 101px 32px 0;
     border-style: solid;
     border-color: black transparent;
 }
@@ -54,9 +61,36 @@ body{
     height: 0;
     width: 0;
     position: absolute;
-    top: -170px;
-    left: -229px;
-    border-width: 0 100px 90px;
+    top: -195px;
+    left: -32px;
+    border-width: 0 103px 94px;
     border-style: solid;
     border-color: transparent transparent black;
+}
+
+/*  */
+/* Rectangle */
+
+#rectangle {
+    position: relative;
+    top: -100px;
+    left: -416px;
+
+    transform: rotate(137deg);
+
+    width: 50px;
+    height: 20px;
+
+    background: black;
+}
+
+/*  */
+/* Text */
+
+#lucas{
+    position: relative;
+    left: -400px;
+    top: -50px;
+
+    color: white;
 }
