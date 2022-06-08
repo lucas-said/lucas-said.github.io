@@ -1,5 +1,5 @@
-body{
-    height: 100vh;
+body {
+  height: 100vh;
 }
 
 html,
@@ -9,88 +9,146 @@ body {
   font-size: 16px;
 }
 
-.flex_container{
-    display: flex;
+.flex_container {
+  display: flex;
 }
 
-.flex_centering{
-    justify-content: center;
-    align-items: center;
+.flex_centering {
+  justify-content: center;
+  align-items: center;
 }
 
 /*  */
 /* Paralellogram */
 #pentagon {
-    width: 150px;
-    position: relative;
-    border-width: 110px 35px 0;
-    border-style: solid;
-    border-color: silver transparent;
-
+  width: 150px;
+  position: relative;
+  border-width: 110px 35px 0;
+  border-style: solid;
+  border-color: silver transparent;
 }
 
 /* Triangle */
 #pentagon:before {
-    content: "";
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: -210px;
-    left: -35px;
-    border-width: 0 110px 100px;
-    border-style: solid;
-    border-color: transparent transparent silver;
-
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: -210px;
+  left: -35px;
+  border-width: 0 110px 100px;
+  border-style: solid;
+  border-color: transparent transparent silver;
 }
 
 /*  */
 /* Pentagon Black */
 
 #pentagon_black {
-    left: -213px;
-    top: -2px;
-    width: 142px;
-    position: relative;
-    border-width: 101px 32px 0;
-    border-style: solid;
-    border-color: black transparent;
+  left: -213px;
+  top: -2px;
+  width: 142px;
+  position: relative;
+  border-width: 101px 32px 0;
+  border-style: solid;
+  border-color: black transparent;
 }
 
 #pentagon_black:before {
-    content: "";
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: -195px;
-    left: -32px;
-    border-width: 0 103px 94px;
-    border-style: solid;
-    border-color: transparent transparent black;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: -195px;
+  left: -32px;
+  border-width: 0 103px 94px;
+  border-style: solid;
+  border-color: transparent transparent black;
 }
 
 /*  */
 /* Rectangle */
 
 #rectangle {
-    position: relative;
-    top: -100px;
-    left: -416px;
+  position: relative;
+  top: -100px;
+  left: -416px;
 
-    transform: rotate(137deg);
+  transform: rotate(137deg);
 
-    width: 50px;
-    height: 20px;
+  width: 50px;
+  height: 20px;
 
-    background: black;
+  background: black;
 }
 
 /*  */
 /* Text */
 
-#lucas{
-    position: relative;
-    left: -400px;
-    top: -50px;
+#lucas {
+  position: relative;
+  left: -400px;
+  top: -50px;
 
-    color: white;
+  color: white;
+}
+
+#background_color{
+  background-color: green;
+}
+
+#pentagon-wrapper {
+  position: relative;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.flex_container_penta {
+  display: flex;
+  background-color: white;
+}
+
+.square-1 {
+  width: 249px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: red;
+  position: absolute;
+  transform: rotate(-42deg);
+  transform-origin: 18px 130px;
+}
+.square-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: blue;
+  position: absolute;
+  transform: rotate(-60deg);
+  transform-origin: 100px 48px;
+}
+.square-3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: yellow;
+  position: absolute;
+  transform: rotate(-30deg);
+  transform-origin: 28px 170px;
+}
+.square-4 {
+  width: 246px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: green;
+  position: absolute;
+  transform-origin: 206px 69px;
+  transform: rotate(43deg);
+}
+.square-5 {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: pink;
+  position: absolute;
 }
