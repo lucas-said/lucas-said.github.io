@@ -7,6 +7,9 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+
+  min-width: 500px;
+  overflow: auto;
 }
 
 .flex_container {
@@ -193,7 +196,9 @@ body {
   left: 0;
   bottom: 66px;
   margin: auto;
+
 }
+
 
 
 
@@ -212,7 +217,7 @@ body {
   bottom: 0;
   margin: auto;
   transform: rotate(50deg);
-  transform-origin: 151px 85px;
+  transform-origin: 145px 82px;
 }
 
 .square-inside-2{
@@ -226,7 +231,7 @@ body {
   top: 0;
   bottom: 0;
   margin: auto;
-  transform-origin: -52px 350px;
+  transform-origin: -43px 359px;
   transform: rotate(11deg);
 }
 
@@ -261,13 +266,54 @@ body {
 }
 
 .square-inside-5{
-  width: 52%;
-  height: 45%;
+  width: 53%;
+  height: 46%;
   border-radius: 10%;
   background-color: black;
   position: absolute;
   right: 0;
   left: 0;
-  bottom: 74px;
+  bottom: 75px;
   margin: auto;
+}
+
+
+.usb_square{
+  background-color: black;
+  height: 20%;
+  width: 6%;
+  position: absolute;
+  transform-origin: 24.3px 211px;
+  transform: rotate(50deg);
+  border-radius: 10%;
+}
+
+.usb_trapezium{
+  background-color: black;
+  clip-path: polygon(8% 0, 92% 0, 100% 25%, 0 25%);
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  transform-origin: 82px 79.1px;
+  transform: rotate(140deg);
+  z-index: -1;
+}
+
+.usb_square_asterisk{
+  background-color: orangered;
+  color: black;
+  height: 2.7%;
+  width: 3%;
+  text-align: center;
+  border-radius: 35%;
+  position: absolute;
+  transform-origin: 38px 83px;
+  transform: rotate(140deg);
+}
+
+#text_over_penta{
+  color: white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
 }
