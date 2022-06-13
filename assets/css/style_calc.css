@@ -1,0 +1,83 @@
+body {
+  height: 100vh;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  min-width: 500px;
+  overflow: auto;
+}
+
+.flex_container{
+    display: flex;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 75px 75px 75px 75px;
+    grid-template-rows: 25% 11% 11% 11% 11% 11%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_styling{
+    background-color: black;
+    height: 100vh;
+}
+
+#output_calc {
+    grid-column-end: span 4;
+    color: white;
+    text-align: right;
+    font-size: 75px;
+    padding: 40px 0px 40px 40px;
+    margin-top: 10%;
+}
+
+#spacing_no-0{
+    text-align: left;
+    grid-column-end: span 2;
+    border-radius: 35px;
+    padding-left: 18%;
+}
+
+.grid-item {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 78, 78);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.top-row_styling{
+    color: black;
+    background-color: darkgray;
+}
+
+.right-row_styling{
+    background-color: orange;
+}
+
+.right-row_styling:hover{
+    color: orange;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.top-row_styling:hover{
+    background-color: gainsboro;
+    transition: 0.3s;
+}
+
+.grid-item:hover{
+    background-color: gainsboro;
+    transition: 0.3s;
+}

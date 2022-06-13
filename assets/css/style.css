@@ -227,6 +227,7 @@ a:visited > a {
 }
 
 .submitbutton {
+  cursor: pointer;
   border-radius: 20px;
   width: 100px;
   height: 30px;
@@ -234,6 +235,13 @@ a:visited > a {
   background-color: black;
   color: white;
 }
+
+.submitbutton:hover{
+  background-color: gainsboro;
+  color: black;
+}
+
+
 
 .flex_spaces {
   flex: 1 1 0;
