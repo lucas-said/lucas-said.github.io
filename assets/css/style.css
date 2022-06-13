@@ -375,7 +375,6 @@ section {
 .grid_container {
   display: grid;
   grid-template-columns: repeat(3, 33.33%);
-  /* grid-template-rows: repeat(3, 33.33%); */
   justify-content: center;
   border: 3px solid black;
   text-align: center;
@@ -399,8 +398,9 @@ section {
   background-color: black;
   border-radius: 15px;
   height: 100%;
-  width: 5%;
+  width: 8%;
   margin-left: 20px;
+  padding: 5px;
 }
 
 .back_button__styling {
