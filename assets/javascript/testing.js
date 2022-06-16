@@ -1,95 +1,48 @@
-// let plus = false
-
-let display = document.getElementById('display');
-
-// let buttons = Array.from(document.getElementsByClassName('button'));
-
-
-// function plus_detector(){
-//     plus = true
-// }
-
-// buttons.map( button => {
-//     button.addEventListener('click', (e) => {
-//         switch(e.target.innerText){
-
-//             case 'C':
-//                 display.innerText = '‎'
-//                 break;
-
-//             case '=':
-//                 if (plus == true){
-                    
-//                 }
-
-//             default:
-//                 display.innerText += e.target.innerText;
-//         }
-//     });
-// });
-
-
 let firstnum = [];
 let secondnum = [];
 
-let operand = [];
-operand.length = 1;
+var operand = "";
 
-let ans = '';
+let ans = "";
 
-function numberClick(_val){
-    console.log(_val);
+function numberClick(_val) {
+  console.log(_val);
 
-     firstnum.push(_val)
+  if (operand.length == 1) {
+    secondnum.push(_val);
+  } else {
+    // console.log(firstnum);
+    firstnum.push(_val);
+  }
 }
 
+function setOperator(op) {
+  console.log(op);
 
-
-function setOperator(){
-
-    function division(){
-        operand.push("/")
-    }
-
-    function times(){
-        operand.push("*")
-    }
-
-    function minus(){
-        operand.push("-")
-    }
-
-    function plus(){
-        operand.push("+")
-    }
+  operand = op;
 }
 
-function calculation(){
+function calculation() {
 
-    let num1 = firstnum.join();
-    let num2 = secondnum.join();
+  let num1 = parseInt(firstnum.join(''));
+  let num2 = parseInt(secondnum.join(''));
 
-    if (operand == '+'){
+  if (operand == "+") {
+    ans = num1 + num2;
+  } else if (operand == "*") {
+    ans = num1 * num2;
+  } else if (operand == "-") {
+    ans = num1 - num2;
+  } else if (operand == "/") {
+    ans = num1 / num2;
+  }
 
-       ans = num1+num2;
-
-    } else if (operand == '*'){
-
-        ans = num1*num2;
-
-    } else if (operand == '-'){
-
-        ans = num1-num2;
-
-    } else if (operand == '/'){
-
-        ans = num1/num2;
-
-    }
-
+  document.getElementById("display").innerText=ans;
+  console.log(ans);
 }
 
-
-
-// setOperator()
-// calculation()
+function clearAll() {
+  firstnum = [];
+  secondnum = [];
+  operand = '';
+}

@@ -14,52 +14,36 @@
       <div class="grid_container">
         <div id="display">‎</div>
         <!-- others -->
-        <button class="button top-row_styling">C</button>
+        <button onclick="clearAll()" class="button top-row_styling">C</button>
         <button class="button top-row_styling">+/-</button>
         <button class="button top-row_styling">%</button>
         <!-- op -->
-        <button onclick="division()" class="button right-row_styling">÷</button>
+        <button onclick="setOperator('/')" class="button right-row_styling">÷</button>
         <!-- num -->
         <button onclick="numberClick('7')" class="button">7</button>
         <button onclick="numberClick('8')" class="button">8</button>
         <button onclick="numberClick('9')" class="button">9</button>
         <!-- op -->
-        <button onclick="times()" class="button right-row_styling">×</button>
+        <button onclick="setOperator('*')" class="button right-row_styling">×</button>
         <!-- num -->
         <button onclick="numberClick('4')" class="button digit">4</button>
         <button onclick="numberClick('5')" class="button digit">5</button>
         <button onclick="numberClick('6')" class="button digit">6</button>
         <!-- op -->
-        <button onclick="minus()" class="button right-row_styling minus">
-          -
-        </button>
+        <button onclick="setOperator('-')" class="button right-row_styling minus">-</button>
         <!-- num -->
         <button onclick="numberClick('1')" class="button">1</button>
         <button onclick="numberClick('2')" class="button">2</button>
         <button onclick="numberClick('3')" class="button">3</button>
         <!-- op -->
-        <button onclick="plus()" class="button right-row_styling">+</button>
+        <button onclick="setOperator('+')" class="button right-row_styling">+</button>
         <!-- others -->
-        <button
-          
-          onclick="numberClick('0')"
-          class="button"
-          id="spacing_no-0"
-        >
-          0
-        </button>
+        <button onclick="numberClick('0')" class="button" id="spacing_no-0">0</button>
         <button class="button">.</button>
-        <button onclick="calculation()" class="button right-row_styling">
-          =
-        </button>
+        <button onclick="calculation()" class="button right-row_styling">=</button>
       </div>
     </section>
 
-    <script src="../assets/javascript/testing.js">
-
-      document.getElementsByClassName('digit').addEventListener('click', function () {
-          numberClick(this.innerHTML);
-      })
-    </script>
+    <script src="../assets/javascript/testing.js"></script>
   </body>
 </html>
