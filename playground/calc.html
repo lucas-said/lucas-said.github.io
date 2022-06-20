@@ -11,12 +11,16 @@
 
   <body>
     <section class="section_styling">
+
+      <!-- To change the background from dark mode to light and vice versa -->
+      <button onclick="lightDark()" class="lightDark_styling button_styling">Toggle Light mode</button>
+
       <div class="grid_container">
         <div id="display">‎</div>
         <!-- others -->
         <button onclick="clearAll()" class="button top-row_styling">C</button>
-        <button class="button top-row_styling">+/-</button>
-        <button class="button top-row_styling">%</button>
+        <button onclick="plusMinus()" class="button top-row_styling">+/-</button>
+        <button onclick="percentage()" class="button top-row_styling">%</button>
         <!-- op -->
         <button onclick="setOperator('/')" class="button right-row_styling">÷</button>
         <!-- num -->
@@ -39,7 +43,9 @@
         <button onclick="setOperator('+')" class="button right-row_styling">+</button>
         <!-- others -->
         <button onclick="numberClick('0')" class="button" id="spacing_no-0">0</button>
-        <button class="button">.</button>
+        <button onclick="dot('.')" class="button">.</button>
+
+        <!-- Equals -->
         <button onclick="calculation()" class="button right-row_styling">=</button>
       </div>
     </section>
